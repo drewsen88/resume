@@ -1,24 +1,12 @@
 {
   "header": {
-    "name": "Brandon Lucier",
-    "subtitle": "Senior Software Developer",
+    "name": "Drew Sen",
+    "subtitle": "Senior iOS & Rust Developer",
     "nav": [
-      {
-        "label": "me@scet.ch",
-        "icon": "envelope",
-        "href": "mailto:me@scet.ch"
-      },
-      {
-        "label": "Scetch",
-        "icon": "github",
-        "href": "https://github.com/Scetch"
-      },
-      {
-        "label": "blucier",
-        "icon": "linkedin",
-        "href": "https://linkedin.com/blucier"
-      },
-      { "label": "Ontario, Canada", "icon": "pin" }
+      {"label": "drew.sen.8288@gmail.com", "icon": "envelope", "href": "mailto:drew.sen.8288@gmail.com"},
+      {"label": "drewsen88", "icon": "github", "href": "https://github.com/drewsen88"},
+      {"label": "Drew Sen", "icon": "linkedin", "href": "https://www.linkedin.com/in/seniorsoftwaredevdrew/"},
+      {"label": "North Vancouver, BC, Canada", "icon": "pin"}
     ]
   },
   "left": [
@@ -26,36 +14,41 @@
       "name": "Experience",
       "items": [
         {
-          "title": "1Password",
-          "subtitle": "Senior Software Developer | Tech Lead",
-          "upper": "Remote",
-          "lower": "Sept 2019 - Present",
+          "title": "Bally's Interactive",
+          "subtitle": "Senior Software Engineer",
+          "upper": "Vancouver, BC – Remote",
+          "lower": "Dec 2019 – Present",
           "bullets": [
-            "*Tech Lead* of Filling & Saving; a collection of cross-platform *Rust* crates that handle autofill, save, and field analysis across 1Password products.",
-            "*Collaborated across teams* to add autofill support through use of the brain to Android and macOS apps.",
-            "*Extended the capabilities* of the brain with features such as credit card saving, SSH key autofill and smart password generation.",
-            "Built up *thousands of automated tests* across all aspects of the brain to *prevent regressions* and ensure autofill is as stable as possible.",
-            "Created *documentation* and *fireside chats* for use in onboarding and mentoring new developers."
+            "Architected high‑throughput microservices in *Rust* (*Actix‑Web* + *Tokio*) processing 50 k req/s with p95 < 40 ms.",
+            "Led migration of core payment and cryptography logic to *Rust* shared via FFI, eliminating data‑race classes across iOS and backend.",
+            "Designed modular Cargo workspaces and feature‑flag strategy enabling code reuse across 6 product teams.",
+            "Implemented property‑based tests with *proptest* and performance benchmarks with *criterion*, achieving 3× speedups.",
+            "Mentored 10–12 engineers on ownership, lifetimes, and async Rust, and drove clippy/audit adoption pipeline‑wide."
           ]
         },
         {
-          "title": "Bell Canada",
-          "subtitle": "Student, Engineering | Developer",
-          "upper": "London, ON",
-          "lower": "June 2019 - Sept 2019",
+          "title": "PayByPhone",
+          "subtitle": "Software Developer",
+          "upper": "Vancouver, BC",
+          "lower": "Nov 2016 – Dec 2019",
           "bullets": [
-            "Developed *bash* and *python* scripts to automate long running server tasks *freeing up hours* of weekly developer time.",
-            "Explored and compared the monitoring tools *Spunk* and *ELK (Elasticsearch, Logstash, Kibana)* for the team."
+            "Rewrote legacy payment validation service from Node.js to *Rust*, reducing response time by 80 % and halving AWS costs.",
+            "Added async background receipt upload pipeline using *Tokio* and *reqwest*, replacing PromiseKit implementation.",
+            "Integrated *Serde* + *Diesel* ORM for PostgreSQL with domain‑driven modules, improving type safety and maintainability.",
+            "Set up GitHub Actions to lint (*clippy*), audit (*cargo‑audit*), and deploy Docker images for every merge to main.",
+            "Raised test coverage to 92 % via *cargo‑nextest* and *mockall*, preventing critical regressions in production."
           ]
         },
         {
-          "title": "Centre for Smart Community Innovation",
-          "subtitle": "Research Assistant | Software Developer",
-          "upper": "Windsor, ON",
-          "lower": "2012 - 2014",
+          "title": "CounterPath",
+          "subtitle": "Software Engineer",
+          "upper": "Vancouver, BC",
+          "lower": "Jun 2012 – Aug 2016",
           "bullets": [
-            "*Designed and implemented front-end* web templates for IBM WebSphere Portal, Joomla and Drupal using *HTML*, *CSS*, and *JavaScript.*",
-            "Managed content across various CMS and database systems for both internal and external clients."
+            "Built VoIP & chat features with iOS SDK, Objective‑C, and UIKit across Mac and iOS clients.",
+            "Integrated SIP & XMPP protocols for calls, messaging, file transfer, and group chat.",
+            "Developed debugging instrumentation and crash‑reporting pipelines for production stability.",
+            "Prototyped an experimental *Rust* SIP stack to evaluate latency improvements over the C‑based implementation."
           ]
         }
       ]
@@ -63,12 +56,11 @@
     {
       "name": "Skills",
       "items": [
-        {
-          "title": "Programming",
-          "upper": "Rust, Python, C, C++, Java, HTML, CSS, TypeScript, JavaScript, Bash, SQL"
-        },
-        { "title": "Tools / Frameworks", "upper": "React, Svelte" },
-        { "title": "Operating Systems", "upper": "macOS, Linux, Windows" }
+        {"title": "Programming", "upper": "Rust • Swift • SwiftUI • Objective‑C • C++ • Python • JavaScript/TypeScript • Java • Kotlin • C#"},
+        {"title": "Tools / Frameworks", "upper": "Combine, Tokio, Actix, CoreData, React, Fastlane, Bitrise, Jenkins, Git"},
+        {"title": "Databases", "upper": "SQLite, PostgreSQL, MySQL, MongoDB, CouchDB, NoSQL"},
+        {"title": "Architecture & Patterns", "upper": "MVC, MVVM, VIPER, Redux, Reactive, Delegate, Coordinator"},
+        {"title": "Operating Systems", "upper": "macOS, Linux, Windows"}
       ]
     }
   ],
@@ -76,56 +68,16 @@
     {
       "name": "Education",
       "items": [
-        {
-          "title": "University of Windsor",
-          "subtitle": "B.S Computer Science Software Engineering Specialization",
-          "upper": "Windsor, ON",
-          "lower": "June 2016 - May 2020"
-        }
-      ]
-    },
-    {
-      "name": "Extracurricular",
-      "items": [
-        {
-          "title": "Computer Science Society",
-          "subtitle": "Vice President",
-          "upper": "Windsor, ON",
-          "lower": "May 2019 - May 2020",
-          "bullets": [
-            "*Elected* representative of over *600 undergraduate* students acting as a liaison between students and the department of Computer Science regarding academic issues, policies, and events.",
-            "*Developed several tools* used by computer science students for course information and events."
-          ]
-        }
+        {"title": "University of British Columbia", "subtitle": "Master of Science, Computer Science", "upper": "Vancouver, BC", "lower": "—"},
+        {"title": "University of British Columbia", "subtitle": "Bachelor of Science, Mathematics & Computer Science (Co‑op)", "upper": "Vancouver, BC", "lower": "—"}
       ]
     },
     {
       "name": "Projects",
       "items": [
-        {
-          "title": "mcping",
-          "href": "https://github.com/Scetch/mcping",
-          "bullets": [
-            "An *open source Rust* crate that implements multiple versions of the Minecraft status protocol.",
-            "Created a Discord bot using mcping providing *hundreds of students* commands to obtain the status of Minecraft servers used for events."
-          ]
-        },
-        {
-          "title": "uWindsorCourseSearchBot",
-          "href": "https://github.com/Scetch/uWindsorCourseSearchBot",
-          "bullets": [
-            "An *open source* Discord bot written in Rust that provides *hundreds of students* commands to search and display course information in chat.",
-            "Scrapes course information from university systems to *build a search index* based on course codes, titles, and descriptions."
-          ]
-        },
-        {
-          "title": "Nodus",
-          "bullets": [
-            "A utility Minecraft mod written in *Java* with *millions of downloads.*",
-            "Provided multiplayer game customization using custom graphical overlays, commands, and key bindings.",
-            "Used *OpenGL* to render graphical overlays and custom elements in-game."
-          ]
-        }
+        {"title": "Sudoku (Crux Pattern)", "bullets": ["Cross‑platform *Rust* core using the *Crux* architectural pattern with thin SwiftUI headless client.", "Adds haptic feedback and supports iOS, Android, and Web from a single Rust codebase."]},
+        {"title": "Memcached CLI", "bullets": ["Command‑line client built in *Rust* capable of serializing/deserializing Memcached text protocol.", "Implements set, get, and mutate commands with async Tokio networking."]},
+        {"title": "PrivacyMode Core", "bullets": ["Experimental *Rust* library providing clipboard clearing, screenshot prevention, and username obfuscation via FFI to iOS and Android apps."]}
       ]
     }
   ]
